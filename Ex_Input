@@ -1,0 +1,7 @@
+ldi R1 5
+ldi R2 9
+add R3 R1 R2
+ldi R0 4
+ldi R2 1
+sub R1 R0 R2
+and R0 R3 R1
