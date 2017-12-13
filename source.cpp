@@ -143,7 +143,6 @@ int main(int argc, char const *argv[]){
 				saida << "0,0,0,1";			//	OpULA : A or B
 				saida << ",0";				//	MemToReg : Ula
 
-				reg_end(tks[1]);
 				reg_end(tks[1], tks[2], tks[3]); // Ender de Dest, A, B
 
 				break;
